@@ -59,7 +59,6 @@ int Sole(int umidita){
 int main() {
     int max,umidita = 0,piante=0;
     string operazione;
-    string c = "";
     cout<<"Inserire la capacità massima del giardino: ";
     cin>>max;
     do{
@@ -87,7 +86,7 @@ int main() {
         }
     }while(operazione != "X");
     
-    
+
     cout<<"Il gioco è finito!"<<endl;
     return 0;
 }
