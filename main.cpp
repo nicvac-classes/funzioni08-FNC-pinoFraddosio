@@ -87,6 +87,7 @@ int main() {
         }
     }while(operazione != "X");
     
+    
     cout<<"Il gioco è finito!"<<endl;
     return 0;
 }
